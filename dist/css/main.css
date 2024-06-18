@@ -221,7 +221,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio'  'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -264,7 +264,11 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem; }
   #about-c .about-logos img {
-    width: 70%; }
+    width: 250px; }
+  #about-c .about-logos .marquee-img {
+    width: 100%;
+    margin-inline: 3rem;
+    display: inline-block; }
 
 #about-d .testimonials {
   display: grid;

@@ -209,12 +209,13 @@ img {
 
 // About Section
 #about {
+
     // About A
     &-a {
         .about-info {
             display: grid;
-            grid-template-areas: 'bioimage bio bio' 
-            'aw1 aw2 aw3';
+            grid-template-areas: 'bioimage bio bio'
+                'aw1 aw2 aw3';
             grid-gap: 1.2rem;
         }
 
@@ -244,7 +245,7 @@ img {
         .award-1 .fas,
         .award-2 .fas,
         .award-3 .fas {
-            color: $main-color; 
+            color: $main-color;
             margin: 1rem;
         }
     }
@@ -274,9 +275,19 @@ img {
             grid-template-columns: repeat(4, 1fr);
             grid-gap: 2rem;
 
+            // img {
+            //     width: 70%;
+            // }
+
 
             img {
-                width: 70%;
+                width: 250px;
+            }
+
+            .marquee-img {
+                width: 100%;
+                margin-inline: 3rem;
+                display: inline-block;
             }
         }
     }
